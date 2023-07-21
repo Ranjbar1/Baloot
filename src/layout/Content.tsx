@@ -25,7 +25,7 @@ export default function AppContent() {
     fetchNextPage,
   } = useInfiniteQuery({
     queryFn: ({ pageParam = 1 }) => getItems(pageParam, category),
-    queryKey: ["items"],
+    queryKey: ["items", category],
     getNextPageParam: (lastPage, pages) => {
       return lastPage ? pages.length + 1 : undefined;
     },
