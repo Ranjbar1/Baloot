@@ -14,18 +14,14 @@
   -webkit-text-size-adjust: 100%;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+*,*:after , *::before{
+  
+  box-sizing: border-box;
 }
 
-body {
+html ,body{
+  background-color: aliceblue;
+  color: darkgrey;
   margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
 }
-

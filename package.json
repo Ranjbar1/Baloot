@@ -11,6 +11,7 @@
     "server": "json-server --watch data/db.json --port 3004"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.33.1",
     "@tanstack/react-query": "^4.29.19",
     "@tanstack/react-query-devtools": "^4.29.23",
     "antd": "^5.7.0",
